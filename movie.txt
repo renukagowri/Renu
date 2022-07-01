@@ -1,0 +1,9 @@
+movie.db;
+CREATE TABLE movie(movie_name text,actor text,actoress text,director text,year_of_release integer NOT NULL);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('Eeshwar','Silambarasan','Nidhi Agerwal','Suseenthiran',2021,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('Etharkkum Thunindhavan','Suriya Sivakumar','Priyanka Arul Mohan','Pandiraj',2022,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('Puli','Vijay','Sudeep','Chimbu Deven',2015,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('Kayal','Chandran','Anandhi','Prabhu Solomon',2014,);
+//for query
+SELECT * FROM movies;
+SELECT movie FROM movies WHERE actor='Suriya Sivakumar';
